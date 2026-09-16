@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Forms</title>
+  </head>
+  <body>
+    <fieldset>
+        <legend >Basic Form</legend>
+       <form>
+      <label for="FullName">FullName:</label>
+      <input
+        type="text"
+        name="FullName"
+        id="FullName"
+        placeholder="Enter your Name "
+      />
+      <br />
+      <br />
+      <label for="emailAddress">EmailAddress:</label>
+      <input
+        type="email"
+        name="emailAddress"
+        id="emailAddress"
+        placeholder="Enter your Email"
+      />
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter your Password"
+      />
+      <br />
+      <br />
+      <label for="CFPassword">Confirm Password:</label>
+      <input
+        type="password"
+        name="CFPassword"
+        id="CFPassword"
+        placeholder="Confirm your Password"
+      />
+      <br />
+      <br />
+      <label for="Dob">Date of Birth:</label>
+      <input type="date" name="Dob" id="Dob" />
+      <br />
+      <br />
+      <label for="TOB">Time of Birth:</label>
+      <input type="time" name="TOB" id="TOB" />
+      <br />
+      <br />
+      <label for="joiningtime">Joining Time:</label>
+      <input type="datetime-local" name="joiningtime" id="joiningtime" />
+      <br />
+      <br />
+      <label for="volume">Volume:</label>
+      <input
+        type="range"
+        name="volume"
+        id="volume"
+        min="0"
+        max="10"
+        value="3"
+      />
+      <br />
+      <br />
+      <label for="mobile">Phone Number:</label>
+      <input
+        type="number"
+        name="mobile"
+        id="mobile"
+        placeholder="+91..........."
+      />
+      <br>
+      <br>
+      <label for="resume">Resume:</label>
+      <input type="file" name="resume" id="resume" />
+      <br>
+      <br>
+      <label for="address">Address:</label>
+      <textarea name="address" id="address"></textarea>
+      <br>
+      <br>
+      <label for="course">Course:</label>
+      <select name="course" id="course">
+        <option value="">---Select course---</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="M.Tech">M.Tech</option>
+        <option value="MBA">MBA</option>
+        <option value="BCA">BCA</option>
+      </select>
+      <br>
+      <br>
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="other" value="other" />
+      <label for="other">Other</label>  
+      <br>
+      <br>
+      <label for="course">Course:</label>
+      <input type="checkbox" name="course" id="DSA" value="DSA" />
+      <label for="DSA">DSA</label>
+      <input type="checkbox" name="course" id="JAVA" value="JAVA" />
+      <label for="JAVA">JAVA</label>
+      <input type="checkbox" name="course" id="HTML" value="HTML" />
+      <label for="HTML">HTML</label>
+
+
+      <button>Submit</button>
+    </form> 
+    </fieldset>
+    <img src="./CTSI9475.JPG" alt="" width="700px" height="" />
+  </body>
+</html>
