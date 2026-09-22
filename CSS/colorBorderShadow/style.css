@@ -1,0 +1,44 @@
+.main{
+    background-color: #c2f8f8;
+    color:rgb(19, 107, 175)
+}
+
+#card{
+    color:rgb(18, 13, 11)
+}
+
+p{
+    color: rgb(53, 144, 107);
+    border: 2px solid rgb(20, 196, 126);
+    border: 2px dashed rgb(20, 196, 126);
+    border: 10px groove rgb(20, 196, 126);
+    border: 2px dotted rgb(20, 196, 126);
+    border: 5px double rgb(20, 196, 126);
+}
+
+#card p{
+    color: rgb(86, 72, 234);
+    height: 300px;
+    width: 250px;
+    overflow: auto;
+}
+
+#clickbtn{
+    background-color: #4f5258;
+    color: rgb(25, 219, 7);
+    border: 2px solid black;
+    
+    border-color: #4f5258;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+#clickbtn:hover{
+    background-color: #fff;
+    color:aquamarine;
+}
+
+#clickbtn:active{
+    background-color: aquamarine;
+    color: #fff;
+}
