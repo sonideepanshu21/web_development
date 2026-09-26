@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="forms">
+      <section class="form-panel" >
+        <h1 id="login-title">Login</h1>
+        <form>
+          <label for="login-email"> </label>
+          <input id="login-email"  name="email"type="email"placeholder=" 📩. Enter your email"require />
+
+          <label for="login-password"></label>
+          <input id="login-password"name="password"type="password"placeholder=" 🔒 Enter your password"required/>
+
+          <div class="form-options">
+
+            <label class="checkbox-label">
+            <input name="remember" type="checkbox" /> Remember me</label>
+            
+            <a href="#forgot-password">Forgot password?</a>
+
+          </div>
+
+          <button id="button" type="submit">Login Now</button>
+        </form>
+        <p class="form-footer">
+          Don't have an account? <a href="#register-title">Sign up now</a>
+        </p>
+      </section>
+
+      <section class="form-panel" aria-labelledby="register-title">
+
+        <h1 id="register-title">Registration</h1>
+
+        <form>
+          <label for="register-name"></label>
+          <input id="register-name" name="name" type="text"placeholder=" 👤 Enter your name" require/>
+          
+          <label for="register-email"></label>
+          <input id="register-email"name="email"type="email"placeholder=" 📩 Enter your email"  required/>
+
+          <label for="register-password"></label>
+          <input id="register-password"name="password"type="password"placeholder="🔒 Create a password"required/>
+
+          <label for="confirm-password"></label>
+          <input id="confirm-password"name="confirm-password"type="password"placeholder=" 🔒 Confirm your password"required />
+
+          <label class="checkbox-label ">
+          <input name="terms" type="checkbox" required /> I accept all terms & conditions</label>
+         
+          <button id="button2"  type="submit">Register Now</button>
+        </form>
+
+        <p class="form-footer">
+          Already have an account? <a href="#login-title">Login now</a>
+        </p>
+     </section>
+
+    </main>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+#header{
+ background-color: wheat;   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 30px;
+
+}
+
+#menu-buttom{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#buttom{
+    background: #d20c4e;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+#ask-me{
+     background: red;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+#section1{
+    display: flex;
+    gap: 20px;
+}
+#ricr-img{
+    width: 500px;
+    height: 500px;
+}
