@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Thoughtfully designed furniture for a more beautiful home."
+    />
+    <title>Furni. | Modern Interior Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Main navigation">
+        <div class="page-container nav-inner">
+          <a class="brand-mark" href="#home" aria-label="Furni home"
+            >Furni<span>.</span></a
+          >
+          <input
+            class="screen-reader-only menu-checkbox"
+            type="checkbox"
+            id="nav-toggle"
+            aria-label="Toggle navigation"
+          />
+          <label class="menu-toggle" for="nav-toggle" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </label>
+          <div class="nav-panel" id="mainNav">
+            <ul class="primary-nav-list">
+              <li class="nav-item">
+                <a class="primary-nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="primary-nav-link" href="#shop">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="primary-nav-link" href="#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="primary-nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="primary-nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="primary-nav-link" href="#contact">Contact us</a>
+              </li>
+              <li class="nav-item nav-tools">
+                <a class="nav-icon" href="#contact" aria-label="Your account"><i class="fa-regular fa-user"></i></a>
+                <a class="nav-icon" href="#shop" aria-label="Shopping cart"><i class="fa-solid fa-bag-shopping"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero" id="home">
+        <div class="page-container">
+          <div class="layout-grid align-middle hero-row">
+            <div class="span-five hero-copy">
+              <h1>
+                Modern Interior<br class="d-none d-lg-block" />
+                Design Studio
+              </h1>
+              <p>
+                Bring comfort and character home with beautifully considered
+                furniture, made for the way you live.
+              </p>
+              <div class="hero-actions">
+                <a class="action-button button-gold" href="#shop">Shop Now</a>
+                <a class="action-button button-outline" href="#about"
+                  >Explore</a
+                >
+              </div>
+            </div>
+            <div class="span-seven hero-visual">
+              <img
+                src="https://themewagon.github.io/furni/images/couch.png"
+                alt="Contemporary sofa in a bright, considered living room"
+              />
+              <span class="dot-pattern-sofa" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="products section-space" id="shop">
+        <div class="page-container">
+          <div class="layout-grid gap-medium align-stretch">
+            <div class="span-md-half span-lg-quarter product-intro">
+              <h2>Crafted with excellent material.</h2>
+              <p>
+                Everyday pieces, thoughtfully made. Discover lasting comfort and
+                quality in every detail.
+              </p>
+              <a class="action-button button-dark" href="#popular">Explore</a>
+            </div>
+            <div class="span-sm-half span-lg-quarter">
+              <article class="product-card">
+                <a
+                  class="product-link"
+                  href="#popular"
+                  aria-label="Discover Nordic Chair"
+                >
+                  <div class="product-image">
+                    <img
+                      src="https://themewagon.github.io/furni/images/product-1.png"
+                      alt="Nordic-style wooden chair"
+                    />
+                  </div>
+                  <h3>Nordic Chair</h3>
+                  <p>$50.00</p>
+                  <span class="product-plus"><i class="fa-solid fa-plus"></i></span>
+                </a>
+              </article>
+            </div>
+            <div class="span-sm-half span-lg-quarter">
+              <article class="product-card">
+                <a
+                  class="product-link"
+                  href="#popular"
+                  aria-label="Discover Kruzo Aero Chair"
+                >
+                  <div class="product-image">
+                    <img
+                      src="https://themewagon.github.io/furni/images/product-2.png"
+                      alt="Sculptural modern lounge chair"
+                    />
+                  </div>
+                  <h3>Kruzo Aero</h3>
+                  <p>$78.00</p>
+                  <span class="product-plus"><i class="fa-solid fa-plus"></i></span>
+                </a>
+              </article>
+            </div>
+            <div class="span-sm-half span-lg-quarter">
+              <article class="product-card">
+                <a
+                  class="product-link"
+                  href="#popular"
+                  aria-label="Discover Ergonomic Chair"
+                >
+                  <div class="product-image">
+                    <img
+                      src="https://themewagon.github.io/furni/images/product-3.png"
+                      alt="Comfortable upholstered accent chair"
+                    />
+                  </div>
+                  <h3>Ergonomic Chair</h3>
+                  <p>$43.00</p>
+                  <span class="product-plus"><i class="fa-solid fa-plus"></i></span>
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why section-space" id="services">
+        <div class="page-container">
+          <div class="layout-grid align-middle gap-y-large">
+            <div class="span-lg-half why-copy">
+              <h2>Why Choose Us</h2>
+              <p class="section-lead">
+                Good design should feel as good as it looks. We make finding
+                your next favorite piece simple.
+              </p>
+              <div class="layout-grid gap-medium feature-grid">
+                <div class="span-sm-half feature-item">
+                  <span class="feature-icon"><i class="fa-solid fa-truck-fast"></i></span>
+                  <h3>Fast &amp; Free Shipping</h3>
+                  <p>Enjoy complimentary delivery on orders over $100.</p>
+                </div>
+                <div class="span-sm-half feature-item">
+                  <span class="feature-icon"><i class="fa-solid fa-bag-shopping"></i></span>
+                  <h3>Easy to Shop</h3>
+                  <p>Thoughtful pieces and a seamless shopping experience.</p>
+                </div>
+                <div class="span-sm-half feature-item">
+                  <span class="feature-icon"><i class="fa-solid fa-headset"></i></span>
+                  <h3>24/7 Support</h3>
+                  <p>Our friendly team is here whenever you need a hand.</p>
+                </div>
+                <div class="span-sm-half feature-item">
+                  <span class="feature-icon"><i class="fa-solid fa-arrows-rotate"></i></span>
+                  <h3>Hassle Free Returns</h3>
+                  <p>Find the right fit with easy, stress-free returns.</p>
+                </div>
+              </div>
+            </div>
+            <div class="span-lg-half why-photo-wrap">
+              <img
+                class="why-photo"
+                src="https://themewagon.github.io/furni/images/why-choose-us-img.jpg"
+                alt="Warm modern living room with natural textures and carefully selected furnishings"
+              />
+              <span class="dot-pattern" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="we-help section-space" id="about">
+        <div class="page-container">
+          <div class="layout-grid align-middle gap-y-large">
+            <div class="span-lg-half collage-wrap">
+              <div class="interior-collage">
+                <img
+                  class="collage-main"
+                  src="https://themewagon.github.io/furni/images/img-grid-1.jpg"
+                  alt="Calm living room with a neutral sofa and layered textiles"
+                />
+                <img
+                  class="collage-top"
+                  src="https://themewagon.github.io/furni/images/img-grid-2.jpg"
+                  alt="Detail of a softly styled contemporary interior"
+                />
+                <img
+                  class="collage-bottom"
+                  src="https://themewagon.github.io/furni/images/img-grid-3.jpg"
+                  alt="Modern dining space with natural wood furniture"
+                />
+                <span
+                  class="dot-pattern collage-dots"
+                  aria-hidden="true"
+                ></span>
+              </div>
+            </div>
+            <div class="span-lg-half help-copy">
+              <h2>We Help You Make Modern Interior Design</h2>
+              <p>
+                Our collection brings together natural materials, timeless
+                silhouettes, and the little details that make a space feel like
+                yours.
+              </p>
+              <ul class="check-list">
+                <li>Carefully selected materials built to last</li>
+                <li>Considered designs for everyday living</li>
+                <li>Pieces that make every room feel personal</li>
+                <li>Friendly guidance from selection to delivery</li>
+              </ul>
+              <a class="action-button button-dark" href="#shop">Explore</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular section-space" id="popular">
+        <div class="page-container">
+          <div class="layout-grid gap-medium">
+            <div class="span-md-third">
+              <article class="popular-item">
+                <a class="popular-image" href="#shop"
+                  ><img
+                    src="https://themewagon.github.io/furni/images/product-1.png"
+                    alt="Nordic Chair"
+                /></a>
+                <div>
+                  <h3>Nordic Chair</h3>
+                  <p>
+                    A clean-lined classic for quiet moments and lively
+                    gatherings alike.
+                  </p>
+                  <a href="#shop">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="span-md-third">
+              <article class="popular-item">
+                <a class="popular-image" href="#shop"
+                  ><img
+                    src="https://themewagon.github.io/furni/images/product-2.png"
+                    alt="Kruzo Aero Chair"
+                /></a>
+                <div>
+                  <h3>Kruzo Aero</h3>
+                  <p>
+                    A sculptural accent with a welcoming shape and modern
+                    spirit.
+                  </p>
+                  <a href="#shop">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="span-md-third">
+              <article class="popular-item">
+                <a class="popular-image" href="#shop"
+                  ><img
+                    src="https://themewagon.github.io/furni/images/product-3.png"
+                    alt="Ergonomic Chair"
+                /></a>
+                <div>
+                  <h3>Ergonomic Chair</h3>
+                  <p>
+                    Comfort-forward design, made to earn its place in your home.
+                  </p>
+                  <a href="#shop">Read More</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="testimonials section-space"
+        aria-labelledby="testimonial-title"
+      >
+        <div class="page-container">
+          <h2 id="testimonial-title" class="center-text">Testimonials</h2>
+          <div id="testimonialCarousel" class="testimonial-carousel">
+            <input
+              class="screen-reader-only testimonial-choice"
+              type="radio"
+              name="testimonial"
+              id="testimonial-1"
+              aria-label="Testimonial 1"
+              checked
+            />
+            <input
+              class="screen-reader-only testimonial-choice"
+              type="radio"
+              name="testimonial"
+              id="testimonial-2"
+              aria-label="Testimonial 2"
+            />
+            <div class="testimonial-track">
+              <div class="testimonial-slide">
+                <figure class="review">
+                  <blockquote>
+                    “The pieces are even more beautiful in person. Our living
+                    room finally feels complete, and the whole experience was a
+                    pleasure from start to finish.”
+                  </blockquote>
+                  <img
+                    src="./IMG_8212.JPG"
+                    alt="Deepanshu soni"
+                    class="review-avatar"
+                  />
+                  <figcaption>
+                    <strong>Deepanshu soni</strong
+                    ><span>CEO, Co-Founder, XYZ Inc.</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="testimonial-slide">
+                <figure class="review">
+                  <blockquote>
+                    “Beautiful quality, thoughtful details, and delivery was so
+                    easy. The chair has become everyone's favorite spot in the
+                    house.”
+                  </blockquote>
+                  <img
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=180&q=85"
+                    alt="Daniel Carter"
+                    class="review-avatar"
+                  />
+                  <figcaption>
+                    <strong>Daniel Carter</strong><span>Furni. customer</span>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <label
+              class="testimonial-control previous previous-first"
+              for="testimonial-2"
+              aria-label="Previous testimonial"
+            >
+              <span class="carousel-arrow"><i class="fa-solid fa-arrow-left"></i></span>
+            </label>
+            <label
+              class="testimonial-control previous previous-second"
+              for="testimonial-1"
+              aria-label="Previous testimonial"
+            >
+              <span class="carousel-arrow"><i class="fa-solid fa-arrow-left"></i></span>
+            </label>
+            <label
+              class="testimonial-control next next-first"
+              for="testimonial-2"
+              aria-label="Next testimonial"
+            >
+              <span class="carousel-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+            </label>
+            <label
+              class="testimonial-control next next-second"
+              for="testimonial-1"
+              aria-label="Next testimonial"
+            >
+              <span class="carousel-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+            </label>
+            <div class="testimonial-indicators">
+              <label
+                for="testimonial-1"
+                aria-label="Show testimonial 1"
+              ></label>
+              <label
+                for="testimonial-2"
+                aria-label="Show testimonial 2"
+              ></label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog section-space" id="blog">
+        <div class="page-container">
+          <div class="section-heading-row">
+            <h2>Recent Blog</h2>
+            <a class="view-all" href="#blog">View All Posts</a>
+          </div>
+          <div class="layout-grid gap-medium">
+            <div class="span-md-third">
+              <article class="blog-card">
+                <a href="#blog"
+                  ><img
+                    src="https://themewagon.github.io/furni/images/post-1.jpg"
+                    alt="A relaxed living room layered with natural textures"
+                /></a>
+                <h3>
+                  <a href="#blog">The art of creating a calm living room</a>
+                </h3>
+                <p>
+                  by <strong>Kristin Watson</strong> on
+                  <strong>Dec 19, 2023</strong>
+                </p>
+              </article>
+            </div>
+            <div class="span-md-third">
+              <article class="blog-card">
+                <a href="#blog"
+                  ><img
+                    src="https://themewagon.github.io/furni/images/post-2.jpg"
+                    alt="Contemporary home details in warm natural tones"
+                /></a>
+                <h3>
+                  <a href="#blog">Small details, a home that feels like you</a>
+                </h3>
+                <p>
+                  by <strong>Robert Fox</strong> on
+                  <strong>Dec 15, 2023</strong>
+                </p>
+              </article>
+            </div>
+            <div class="span-md-third">
+              <article class="blog-card">
+                <a href="#blog"
+                  ><img
+                    src="https://themewagon.github.io/furni/images/post-3.jpg"
+                    alt="A considered dining room with modern wooden furniture"
+                /></a>
+                <h3>
+                  <a href="#blog">Finding the right pieces for your space</a>
+                </h3>
+                <p>
+                  by <strong>Esther Howard</strong> on
+                  <strong>Dec 12, 2023</strong>
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="page-container">
+        <div class="newsletter">
+          <div class="newsletter-copy">
+            <h2>
+              <i class="fa-regular fa-envelope"></i> Subscribe to Newsletter
+            </h2>
+            <form class="newsletter-form" action="#contact" method="get">
+              <label class="screen-reader-only" for="newsletter-name"
+                >Your name</label
+              >
+              <input
+                id="newsletter-name"
+                type="text"
+                placeholder="Enter your name"
+                autocomplete="name"
+              />
+              <label class="screen-reader-only" for="newsletter-email"
+                >Your email address</label
+              >
+              <input
+                id="newsletter-email"
+                type="email"
+                placeholder="Enter your email"
+                autocomplete="email"
+              />
+              <button type="submit" aria-label="Subscribe">
+                <i class="fa-regular fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+          <img
+            class="newsletter-sofa"
+            src="https://themewagon.github.io/furni/images/sofa.png"
+            alt="Green velvet sofa"
+          />
+        </div>
+
+        <div class="footer-main layout-grid gap-y-medium">
+          <div class="span-lg-third footer-brand-col">
+            <a class="footer-brand" href="#home">Furni<span>.</span></a>
+            <p>
+              Thoughtful furniture for the moments that make a house feel like
+              home.
+            </p>
+            <div class="social-links" aria-label="Social media">
+              <a href="#contact" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#contact" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#contact" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#contact" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="span-half span-lg-sixth footer-links">
+            <a href="#about">About us</a><a href="#services">Services</a
+            ><a href="#blog">Blog</a><a href="#contact">Contact us</a>
+          </div>
+          <div class="span-half span-lg-sixth footer-links">
+            <a href="#shop">Support</a><a href="#contact">Knowledge base</a
+            ><a href="#contact">Live chat</a>
+          </div>
+          <div class="span-half span-lg-sixth footer-links">
+            <a href="#contact">Jobs</a><a href="#contact">Our team</a
+            ><a href="#contact">Leadership</a><a href="#contact">Privacy</a>
+          </div>
+          <div class="span-half span-lg-sixth footer-links">
+            <a href="#shop">Nordic Chair</a><a href="#shop">Kruzo Aero</a
+            ><a href="#shop">Ergonomic Chair</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>Copyright &copy; 2024 Furni. All Rights Reserved.</p>
+          <div>
+            <a href="#contact">Terms &amp; Conditions</a
+            ><a href="#contact">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
